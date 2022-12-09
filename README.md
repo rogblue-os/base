@@ -10,7 +10,7 @@ base image for modified Fedora Silverblue install for ROG laptops
 
 
 ## What is this
-This image is a base image for a modified Fedora Silverblue, mostly for use with ASUS ROG laptops. Image includes the basic tools from the Asus-linux project (www.asus-linux.org).
+This image is a base image for a modified Fedora Silverblue, mostly for use with ASUS ROG laptops. Image includes the basic tools from the [Asus-linux project](www.asus-linux.org).
 
 - Start with a base Fedora Silverblue 37 image
 - Removes Firefox from the base image
