@@ -1,9 +1,0 @@
-# dconf path
-[org/gnome/desktop/background]
-
-# dconf key names and their corresponding values
-picture-uri='file:///usr/share/backgrounds/hal_sorry.jpg'
-picture-uri-dark='file:///usr/share/backgrounds/hal_sorry.jpg'
-picture-options='zoom'
-primary-color='000000'
-secondary-color='FFFFFF'
