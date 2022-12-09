@@ -7,13 +7,13 @@ This image is a base image for a modified Fedora Silverblue, mostly for use with
 
 Image has these modifications planned:
 
-    - Remove fedora flatpak repo and flatpacks
+- Remove fedora flatpak repo and flatpacks
 
-    - Enable full access to Flathub repositories
+- Enable full access to Flathub repositories
 
-    - All included flatpaks are replaced to the corresponding apps from Flathub
+- All included flatpaks are replaced to the corresponding apps from Flathub
 
-    - Includes asusctl, supergfxctl and asusctl-rog-gui tools to manage your Asus ROG laptops
+- Includes asusctl, supergfxctl and asusctl-rog-gui tools to manage your Asus ROG laptops
 
-    - Includes custom asus-linux kernel with needed patches for current-gen ROG laptops (NOT IMPLEMENTED YET)
+- Includes custom asus-linux kernel with needed patches for current-gen ROG laptops (NOT IMPLEMENTED YET)
     
