@@ -28,6 +28,6 @@ This image is a base image for a modified Fedora Silverblue, mostly for use with
     - GNOME Calculator, Calendar, Characters, Connections, Contacts, Evince, Firmware, Logs, Maps, NautilusPreviewer, TextEditor, Weather, baobab, clocks, eog, and font-viewer
     
 ## Thanks
-- Jorge Castro for the inspiration and guidance, these are based mostly to his scripts and groundwork
-- The whole Silverblue / ostree team
+- [Jorge Castro](https://www.github.com/castrojo) for the inspiration and guidance, these are based mostly to his scripts and groundwork
+- The whole Fedora Silverblue / ostree team
 
