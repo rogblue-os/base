@@ -1,6 +1,12 @@
 # base
 base image for modified Fedora Silverblue install for ROG laptops
 
+## How to use
+
+1) Install normal Fedora Silverblue 37
+2) Rebase with this command:
+```sudo rpm-ostree rebase --experimental ostree-unverified-registry:ghcr.io/inffy/rogblue-image:latest```
+
 
 ## What is this
 This image is a base image for a modified Fedora Silverblue, mostly for use with ASUS ROG laptops. Image includes the basic tools from the Asus-linux project (www.asus-linux.org).
