@@ -84,8 +84,6 @@ fi
 
 echo "70"
 
-
-
 echo "# Installing Font Downloader"
 /usr/bin/flatpak install --user --noninteractive flathub org.gustavoperedo.FontDownloader
 if [ "$?" != 0 ] ; then
