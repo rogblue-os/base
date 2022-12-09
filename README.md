@@ -27,6 +27,10 @@ This image is a base image for a modified Fedora Silverblue, mostly for use with
 - Core GNOME Applications installed from Flathub
     - GNOME Calculator, Calendar, Characters, Connections, Contacts, Evince, Firmware, Logs, Maps, NautilusPreviewer, TextEditor, Weather, baobab, clocks, eog, and font-viewer
     
+## TODO
+- Include asus-linux custom kernel until Linux 6.1 comes to stable Silverblue
+    - Needs [coreOS bug #4190](https://github.com/coreos/rpm-ostree/issues/4190) fixed
+
 ## Thanks
 - [Jorge Castro](https://www.github.com/castrojo) for the inspiration and guidance, these are based mostly to his scripts and groundwork
 - The whole Fedora Silverblue / ostree team
