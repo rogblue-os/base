@@ -1,5 +1,5 @@
 # base
-base image for modified Fedora Silverblue install for ROG laptops
+base image for modified Fedora Silverblue install
 
 ## How to use
 
@@ -10,7 +10,7 @@ base image for modified Fedora Silverblue install for ROG laptops
 
 
 ## What is this
-This image is a base image for a modified Fedora Silverblue, mostly for use with ASUS ROG laptops. Image includes the basic tools from the [Asus-linux project](www.asus-linux.org).
+This image is a base image for a modified Fedora Silverblue
 
 - Start with a base Fedora Silverblue 37 image
 - Removes Firefox from the base image
@@ -18,8 +18,7 @@ This image is a base image for a modified Fedora Silverblue, mostly for use with
     - distrobox and gnome-tweaks
 - Sets automatic staging of updates for the system
 - Sets flatpaks to update twice a day
-- asusctl, supergfxclt and rog-control-center (asusctl-rog-gui) included
-- Everything else (desktop, artwork, etc) remains stock so you can use this as a good starting image
+- Everything else is stock (theme, wallpapers etc)
 
 ## Applications
 - All applications installed per user instead of system wide, similar to openSUSE MicroOS, they are not on the base image. Thanks for the inspiration Team Green!
@@ -27,9 +26,6 @@ This image is a base image for a modified Fedora Silverblue, mostly for use with
 - Core GNOME Applications installed from Flathub
     - GNOME Calculator, Calendar, Characters, Connections, Contacts, Evince, Firmware, Logs, Maps, NautilusPreviewer, TextEditor, Weather, baobab, clocks, eog, and font-viewer
     
-## TODO
-- Include asus-linux custom kernel until Linux 6.1 comes to stable Silverblue
-    - Needs [coreOS bug #4190](https://github.com/coreos/rpm-ostree/issues/4190) fixed
 
 ## Thanks
 - [Jorge Castro](https://www.github.com/castrojo) for the inspiration and guidance, these are based mostly to his scripts and groundwork
