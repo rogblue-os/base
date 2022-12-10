@@ -7,7 +7,7 @@ COPY rogblue /usr/bin/
 RUN rm -f /usr/share/flatpak/fedora-flathub.filter
 
 RUN rpm-ostree override remove firefox firefox-langpacks && \
-	rpm-ostree install distrobox gnome-tweaks neofetch && \
+	rpm-ostree install distrobox gnome-tweaks && \
 	sed -i 's/#AutomaticUpdatePolicy.*/AutomaticUpdatePolicy=stage/' /etc/rpm-ostreed.conf && \
 	systemctl enable rpm-ostreed-automatic.timer && \
 	systemctl enable flatpak-automatic.timer && \
