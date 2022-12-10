@@ -4,6 +4,7 @@ FROM quay.io/fedora-ostree-desktops/silverblue:37
 
 COPY etc /etc
 COPY rogblue /usr/bin/
+RUN rm -f /usr/share/flatpak/fedora-flathub.filter
 
 RUN rpm-ostree override remove firefox firefox-langpacks && \
 	cd /etc/yum.repos.d/ && curl -LO https://copr.fedorainfracloud.org/coprs/lukenukem/asus-linux/repo/fedora-37/lukenukem-asus-linux-fedora-37.repo && \
