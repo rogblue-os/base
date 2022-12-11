@@ -1,6 +1,8 @@
 # base
 base image for modified Fedora Silverblue install
 
+[![build-rogblue](https://github.com/rogblue-os/base/actions/workflows/build.yml/badge.svg)](https://github.com/rogblue-os/base/actions/workflows/build.yml)
+
 ## How to use
 
 1) Install normal Fedora Silverblue 37
