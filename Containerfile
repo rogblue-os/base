@@ -7,9 +7,7 @@ COPY rogblue /usr/bin/
 RUN rm -f /usr/share/flatpak/fedora-flathub.filter
 
 # fixed rpm-ostree
-RUN cd /etc/yum.repos.d/ && wget https://copr.fedorainfracloud.org/coprs/g/CoreOS/continuous/repo/fedora-37/group_CoreOS-continuous-fedora-37.repo
-
-RUN rpm-ostree override replace https://kojipkgs.fedoraproject.org//packages/rpm-ostree/2022.18/2.fc37/x86_64/rpm-ostree-{libs-,}2022.18-2.fc37.x86_64.rpm
+# RUN cd /etc/yum.repos.d/ && wget https://copr.fedorainfracloud.org/coprs/g/CoreOS/continuous/repo/fedora-37/group_CoreOS-continuous-fedora-37.repo
 
 RUN rpm-ostree override remove firefox firefox-langpacks && \
 	rpm-ostree install distrobox gnome-tweaks && \
