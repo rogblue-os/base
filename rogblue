@@ -20,7 +20,7 @@ fi
 echo "3"
 
 echo "# Enabling Flathub Repository"
-/usr/bin/flatpak remote-add --user --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo
 if [ "$?" != 0 ] ; then
         zenity --error \
           --text="Adding Flathub Repo Failed"
