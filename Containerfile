@@ -7,7 +7,7 @@ COPY rogblue /usr/bin/
 RUN rm -f /usr/share/flatpak/fedora-flathub.filter
 
 # fixed rpm-ostree
-RUN rpm-ostree override replace https://kojipkgs.fedoraproject.org//packages/rpm-ostree/2022.19/2.fc37/x86_64/rpm-ostree-{libs-,}2022.19-2.fc37.x86_64.rpm
+# RUN rpm-ostree override replace https://kojipkgs.fedoraproject.org//packages/rpm-ostree/2022.19/2.fc37/x86_64/rpm-ostree-{libs-,}2022.19-2.fc37.x86_64.rpm
 
 RUN rpm-ostree override remove firefox firefox-langpacks && \
 	rpm-ostree install distrobox gnome-tweaks && \
