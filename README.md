@@ -5,7 +5,7 @@ base image for modified Fedora Silverblue install
 
 ## How to use
 
-1) Install normal Fedora Silverblue 37
+1) First install Fedora Silverblue 37 normally
 2) Rebase with this command:
 ```
    sudo rpm-ostree rebase --experimental ostree-unverified-registry:ghcr.io/rogblue-os/base:latest
